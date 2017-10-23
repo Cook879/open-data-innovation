@@ -1,0 +1,50 @@
+.bar {
+  fill: steelblue;
+}
+
+.bar:hover {
+  fill: brown;
+}
+
+.axis--x path {
+  display: none;
+}
+
+.chart {
+	width:950;
+	height:455;
+	position:absolute;
+	z-index: -10;
+}
+
+.tooltip {
+	position: absolute;
+	display: none;
+	width: auto;
+	height: auto;
+	background: none repeat scroll 0 0 white;
+	border: 0 none;
+	border-radius: 7px 7px 7px 7px;
+	box-shadow: -3px 3px 20px #888888;
+	padding: 5px;
+	text-align: center;
+	pointer-events: none;
+}
+
+.dsc:after {
+	content: "\25BC";
+}
+	
+.asc:after {
+	content: "\25B2";
+}
+
+.agency-7 { 
+	background:url(img/007.svg);
+ }
+
+.donutCentre { 
+	display: none;
+	left: 200px;
+	top: 200px;
+ }
